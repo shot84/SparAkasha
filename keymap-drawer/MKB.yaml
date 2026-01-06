@@ -34,8 +34,8 @@ layers:
   - QUESTION
   - N
   - M
-  - COMMA
-  - PERIOD
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: PERIOD, h: BT}
   - LCTRL
   - LALT
@@ -44,8 +44,8 @@ layers:
   - {t: LANGUAGE 1, h: Fnc}
   - BACKSPACE
   - {t: ENTER, h: Num}
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - Gui+SPACE
+  - {t: ▽, type: trans}
   - COMMA
   - LEFT
   - UP
