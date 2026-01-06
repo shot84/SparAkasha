@@ -293,7 +293,7 @@ layers:
   - ENTER
   - '&mkp MB3'
   - Ctl+TAB
-  - {t: LANGUAGE 2, h: LGUI}
+  - EQUAL
   - B
   BT:
   - BT CLR
