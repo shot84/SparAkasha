@@ -1,40 +1,40 @@
 layout: {zmk_keyboard: MKB}
 layers:
   Def:
-  - ESCAPE
   - Q
   - W
   - E
   - R
   - T
+  - ESCAPE
+  - AT SIGN
   - Y
   - U
   - I
   - O
   - P
-  - LANG1
-  - {t: TAB, h: BT}
   - A
   - S
   - D
   - F
   - G
+  - TAB
+  - MINUS
   - H
   - J
   - K
   - L
   - MINUS
-  - MINUS
-  - LSHFT
-  - Z
+  - {t: Z, h: LSHFT}
   - X
   - C
   - V
   - B
+  - '!'
+  - QUESTION
   - N
   - M
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - COMMA
   - PERIOD
   - {t: PERIOD, h: BT}
   - LCTRL
@@ -44,8 +44,8 @@ layers:
   - {t: LANGUAGE 1, h: Fnc}
   - BACKSPACE
   - {t: ENTER, h: Num}
-  - Gui+SPACE
-  - DOWN
+  - '&mkp MB1'
+  - '&mkp MB2'
   - COMMA
   - LEFT
   - UP
@@ -61,11 +61,12 @@ layers:
   - B
   Fnc:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F2
-  - Ctl+Alt+LEFT
+  - Alt+Ctl+LEFT
   - Ctl+Alt+RIGHT
   - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F1
   - F10
   - {t: ▽, type: trans}
@@ -75,32 +76,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - SEMICOLON
-  - LEFT BRACKET
-  - RIGHT BRACKET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT BRACE
+  - RIGHT BRACE
   - SQT
-  - Sft+Gui+DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - TILDE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LESS THAN
   - GREATER THAN
-  - Sft+Gui+D
-  - Gui+Sft+4
-  - Sft+Gui+5
-  - {t: ▽, type: trans}
+  - Gui+Sft+D
+  - Sft+Gui+4
+  - Gui+Sft+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+2
-  - EQUAL
-  - {t: ENTER, type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
   - DELETE
   - ENTER
   - {t: ▽, type: trans}
@@ -116,55 +116,55 @@ layers:
   - ENTER
   - VOLUME DOWN
   - Gui+RIGHT BRACKET
-  - A
+  - EQUAL
   - B
   Num:
-  - {t: ▽, type: trans}
   - TAB
   - '7'
   - '8'
   - '9'
-  - '0'
+  - MINUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Ctl+LEFT
   - Ctl+RIGHT
   - Ctl+UP ARROW
   - Ctl+DOWN
-  - Ctl+Sft+Gui+Z
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Ctl+Sft+Z
   - '0'
   - '4'
   - '5'
   - '6'
   - COLON
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+RIGHT BRACKET
-  - {t: ▽, type: trans}
+  - AT SIGN
   - UP ARROW
+  - COMMA
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - SLASH
+  - {t: SLASH, h: LSHIFT}
   - '1'
   - '2'
   - '3'
+  - NON US BACKSLASH
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+LEFT BRACKET
   - LEFT
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT ALT
-  - LGUI
-  - ENTER
+  - PAGE UP
+  - LCTRL
+  - LSHIFT
+  - LALT
+  - Gui+Ctl+R
   - Ctl+Sft+S
   - ENTER
   - {t: ENTER, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - Ctl+LEFT
   - Ctl+UP
   - Ctl+Gui+F
@@ -175,7 +175,7 @@ layers:
   - ENTER
   - PG DN
   - END
-  - A
+  - LGUI
   - B
   Mouse:
   - {t: ▽, type: trans}
@@ -237,41 +237,41 @@ layers:
   - A
   - B
   Scr:
-  - {t: ▽, type: trans}
   - ESCAPE
-  - Gui+F2
+  - F2
   - Ctl+Alt+LEFT
   - Ctl+Alt+RIGHT
   - PIPE
-  - Ctl+Alt+D
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+Ctl+D
   - Alt+Ctl+E
-  - Alt+Ctl+F
+  - Ctl+Alt+F
   - Ctl+Alt+T
-  - Ctl+Alt+G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Ctl+G
   - TAB
   - DOUBLE QUOTES
   - AMPERSAND
   - LEFT PARENTHESIS
   - RIGHT PARENTHESIS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT BRACKET
   - RIGHT BRACKET
-  - SQT
-  - Sft+Gui+DOWN
+  - SINGLE QUOTE
+  - Gui+Sft+DOWN
   - Ctl+Alt+ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HASH
+  - {t: HASH, h: LSHIFT}
   - PLUS
   - '!'
   - QUESTION
   - TILDE
+  - Gui+Sft+V
+  - Alt+Gui+V
   - Gui+A
   - Gui+C
   - Gui+V
   - Ctl+Q
-  - {t: ▽, type: trans}
   - Gui+PLUS
   - LCTRL
   - {t: ▽, type: trans}
@@ -280,9 +280,9 @@ layers:
   - {t: ▽, type: trans}
   - DELETE
   - {t: ▽, type: trans}
-  - Alt+Gui+V
-  - Gui+Sft+V
-  - Gui+MINUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - UP
   - SPACE
@@ -293,27 +293,26 @@ layers:
   - ENTER
   - '&mkp MB3'
   - Ctl+TAB
-  - A
+  - EQUAL
   - B
   BT:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Gui+Alt+MINUS
   - Gui+Alt+Sft+EQUAL
+  - {t: ▽, type: trans}
   - BT CLR ALL
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+F11
-  - Alt+Sft+S
+  - Sft+Alt+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -332,6 +331,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
