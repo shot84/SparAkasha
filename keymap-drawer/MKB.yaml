@@ -45,7 +45,7 @@ layers:
   - BACKSPACE
   - {t: ENTER, h: Num}
   - Gui+SPACE
-  - DOWN
+  - COMMA
   - COMMA
   - LEFT
   - UP
@@ -119,7 +119,7 @@ layers:
   - {t: LANGUAGE 2, h: LGUI}
   - B
   Num:
-  - {t: ▽, type: trans}
+  - TAB
   - TAB
   - '7'
   - '8'
@@ -156,8 +156,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT SHIFT
   - LEFT ALT
-  - LGUI
   - ENTER
   - Ctl+Sft+S
   - ENTER
