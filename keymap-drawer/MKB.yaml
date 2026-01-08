@@ -52,11 +52,11 @@ layers:
   - LANG1
   - DOWN
   - RIGHT
+  - PAGE DOWN
   - HOME
-  - PG UP
   - ENTER
-  - PG DN
   - END
+  - PG UP
   - {t: LANGUAGE 2, h: LGUI}
   - B
   Fnc:
@@ -111,11 +111,11 @@ layers:
   - SPACE
   - DOWN
   - RIGHT
-  - Gui+LEFT BRACKET
-  - VOLUME UP
-  - ENTER
   - VOLUME DOWN
+  - Gui+LEFT BRACKET
+  - ENTER
   - Gui+RIGHT BRACKET
+  - VOLUME UP
   - {t: LANGUAGE 2, h: LGUI}
   - B
   Num:
@@ -170,11 +170,11 @@ layers:
   - Ctl+Gui+F
   - Ctl+DOWN
   - Ctl+RIGHT
+  - PAGE DOWN
   - HOME
-  - PG UP
   - ENTER
-  - PG DN
   - END
+  - PAGE UP
   - {t: LANGUAGE 2, h: LGUI}
   - B
   Mouse:
@@ -288,11 +288,11 @@ layers:
   - SPACE
   - DOWN
   - RIGHT
-  - Sft+Ctl+TAB
-  - Gui+R
+  - Sft+Gui+Z
+  - Ctl+Sft+TAB
   - ENTER
-  - '&mkp MB3'
   - Ctl+TAB
+  - Gui+Z
   - EQUAL
   - B
   BT:
