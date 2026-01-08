@@ -26,7 +26,7 @@ layers:
   - MINUS
   - MINUS
   - LSHFT
-  - {t: Z, h: LEFT SHIFT}
+  - {t: Z, h: LSHIFT}
   - X
   - C
   - V
