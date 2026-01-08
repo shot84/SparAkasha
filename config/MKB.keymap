@@ -64,7 +64,7 @@
 &kp ESCAPE  &kp Q     &kp W      &kp E                &kp R        &kp T                    &kp Y          &kp U          &kp I      &kp O          &kp P       &kp LANG1
 &lt BT TAB  &kp A     &kp S      &kp D                &kp F        &kp G                    &kp H          &kp J          &kp K      &kp L          &kp MINUS   &kp MINUS
 &kp LSHFT   &kp Z     &kp X      &kp C                &kp V        &kp B                    &kp N          &kp M          &mkp MB1   &mkp MB2       &kp PERIOD  &lt 5 PERIOD
-&kp LCTRL   &kp LALT  &kp LSHFT                       &lt 4 SPACE  &lt FUNC LANGUAGE_1      &kp BACKSPACE  &lt NUM ENTER             &kp LG(SPACE)  &kp DOWN    &kp COMMA
+&kp LCTRL   &kp LALT  &kp LSHFT                       &lt 4 SPACE  &lt FUNC LANGUAGE_1      &kp BACKSPACE  &lt NUM ENTER             &kp LG(SPACE)  &kp COMMA   &kp COMMA
 &kp LEFT    &kp UP    &kp LANG1  &kp DOWN             &kp RIGHT                                            &kp HOME       &kp PG_UP  &kp ENTER      &kp PG_DN   &kp END
                                  &mt LGUI LANGUAGE_2                                                                      &kp B
             >;
@@ -91,12 +91,12 @@
         num_layer {
             label = "Num";
             bindings = <
-&trans        &kp TAB       &kp N7         &kp N8               &kp N9         &kp NUMBER_0       &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
-&trans        &kp NUMBER_0  &kp NUMBER_4   &kp N5               &kp NUMBER_6   &kp COLON          &kp LG(RIGHT_BRACKET)  &trans         &kp UP_ARROW      &trans        &trans             &trans
-&trans        &kp SLASH     &kp NUMBER_1   &kp NUMBER_2         &kp NUMBER_3   &trans             &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans             &trans
-&trans        &kp LEFT_ALT  &kp LGUI                            &kp ENTER      &kp LC(LS(S))      &kp ENTER              &kp ENTER                        &trans        &trans             &trans
-&kp LC(LEFT)  &kp LC(UP)    &kp LC(LG(F))  &kp LC(DOWN)         &kp LC(RIGHT)                                            &kp HOME       &kp PG_UP         &kp ENTER     &kp PG_DN          &kp END
-                                           &mt LGUI LANGUAGE_2                                                                          &kp B
+&kp TAB       &kp TAB         &kp N7         &kp N8               &kp N9         &kp NUMBER_0       &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
+&trans        &kp NUMBER_0    &kp NUMBER_4   &kp N5               &kp NUMBER_6   &kp COLON          &kp LG(RIGHT_BRACKET)  &trans         &kp UP_ARROW      &trans        &trans             &trans
+&trans        &kp SLASH       &kp NUMBER_1   &kp NUMBER_2         &kp NUMBER_3   &trans             &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans             &trans
+&trans        &kp LEFT_SHIFT  &kp LEFT_ALT                        &kp ENTER      &kp LC(LS(S))      &kp ENTER              &kp ENTER                        &trans        &trans             &trans
+&kp LC(LEFT)  &kp LC(UP)      &kp LC(LG(F))  &kp LC(DOWN)         &kp LC(RIGHT)                                            &kp HOME       &kp PG_UP         &kp ENTER     &kp PG_DN          &kp END
+                                             &mt LGUI LANGUAGE_2                                                                          &kp B
             >;
 
             sensor-bindings =
