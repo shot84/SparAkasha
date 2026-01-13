@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: SparAkasha}
+layout: {zmk_keyboard: MKB}
 layers:
   Def:
   - ESCAPE
