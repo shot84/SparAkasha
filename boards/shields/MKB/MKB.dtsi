@@ -4,7 +4,7 @@
 
 / {
 	chosen {
-		zmk,physical-layout = &layout_MKB;
+		zmk,physical-layout = &layout_SparAkasha;
 	};
    
 	default_transform: keymap_transform_0 {
@@ -22,7 +22,7 @@
 		>;
 	};
 
-	layout_MKB: layout_MKB {
+	layout_SparAkasha: layout_SparAkasha {
 		compatible = "zmk,physical-layout";
 		display-name = "MKB";
 		transform = <&default_transform>;
@@ -93,8 +93,8 @@
     position_map {
         compatible = "zmk,physical-layout-position-map";
 
-        layout_MKB {
-            physical-layout = <&layout_MKB>;
+        layout_SparAkasha {
+            physical-layout = <&layout_SparAkasha>;
             positions = <>;
         };
     };
