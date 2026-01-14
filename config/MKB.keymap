@@ -100,7 +100,7 @@
             label = "Num";
             bindings = <
 &kp TAB       &kp TAB               &kp N7         &kp N8               &kp N9         &kp NUMBER_0       &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
-&trans        &kp NUMBER_0          &kp NUMBER_4   &kp N5               &kp NUMBER_6   &kp COLON          &kp LG(RIGHT_BRACKET)  &trans         &kp UP_ARROW      &trans        &trans             &trans
+&trans        &kp NUMBER_0          &kp NUMBER_4   &kp N5               &kp NUMBER_6   &kp COLON          &kp LG(RIGHT_BRACKET)  &kp AT_SIGN    &kp UP_ARROW      &trans        &trans             &trans
 &trans        &mt LEFT_SHIFT SLASH  &kp NUMBER_1   &kp NUMBER_2         &kp NUMBER_3   &trans             &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans             &trans
 &trans        &kp LEFT_SHIFT        &kp LEFT_ALT                        &kp LC(LG(R))  &kp LC(LS(S))      &kp ENTER              &kp ENTER                        &trans        &trans             &trans
 &kp LC(LEFT)  &kp LC(UP)            &kp LC(LG(F))  &kp LC(DOWN)         &kp LC(RIGHT)                                            &kp PAGE_DOWN  &kp HOME          &kp ENTER     &kp END            &kp PAGE_UP
@@ -158,6 +158,17 @@
             sensor-bindings =
                 <&inc_dec_kp LC(LS(TAB)) LC(TAB)>,
                 <&inc_dec_kp PG_UP PG_DN>;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans          &trans  &trans      &trans  &trans          &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+                        &trans                                      &trans
+            >;
         };
     };
 };
