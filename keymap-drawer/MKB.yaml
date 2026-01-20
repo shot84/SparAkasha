@@ -35,7 +35,7 @@ layers:
   - M
   - '&mkp MB1'
   - '&mkp MB2'
-  - PERIOD
+  - {t: PERIOD, h: BT}
   - {t: PERIOD, h: BT}
   - LCTRL
   - LALT
@@ -54,7 +54,7 @@ layers:
   - RIGHT
   - PAGE DOWN
   - HOME
-  - ENTER
+  - '&mkp MB3'
   - END
   - PG UP
   - {t: LANGUAGE 2, h: LGUI}
