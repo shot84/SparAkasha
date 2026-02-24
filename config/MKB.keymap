@@ -6,6 +6,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#include <input/processors.dtsi>
+#include <input/processors/runtime-input-processor.dtsi>
+#include <behaviors/runtime-sensor-rotate.dtsi>
+#include <behaviors/battery_history_request.dtsi>
+
 #define DEF 0
 #define FUNC 1
 #define NUM 2
@@ -99,7 +104,7 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp TAB       &kp TAB               &kp N7         &kp N8               &kp N9         &kp NUMBER_0       &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
+&kp TAB       &kp TAB               &kp N7         &kp N8               &kp N9         &kp MINUS       &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LC(LS(LG(Z)))  &trans
 &trans        &kp NUMBER_0          &kp NUMBER_4   &kp N5               &kp NUMBER_6   &kp COLON          &kp LG(RIGHT_BRACKET)  &kp AT_SIGN    &kp UP_ARROW      &trans        &trans             &trans
 &trans        &mt LEFT_SHIFT SLASH  &kp NUMBER_1   &kp NUMBER_2         &kp NUMBER_3   &trans             &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &trans             &trans
 &trans        &kp LEFT_SHIFT        &kp LEFT_ALT                        &kp LC(LG(R))  &kp LC(LS(S))      &kp ENTER              &kp ENTER                        &trans        &trans             &trans
@@ -150,7 +155,7 @@
 &bt BT_CLR            &bt BT_SEL 0  &trans     &trans               &kp LG(LA(MINUS))  &kp LG(LA(LS(EQUAL)))      &bt BT_CLR_ALL  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans
 &trans                &trans        &trans     &trans               &kp LS(F11)        &kp LA(LS(S))              &trans          &trans        &trans        &trans        &trans        &trans
 &trans                &trans        &trans     &trans               &trans             &trans                     &trans          &trans        &trans        &trans        &trans        &trans
-&trans                &trans        &trans                          &trans             &trans                     &trans          &trans                      &trans        &trans        &trans
+&trans                &trans        &trans                          &trans             &trans                     &studio_unlock          &trans                      &trans        &trans        &trans
 &kp LG(LA(UP_ARROW))  &kp UP        &kp SPACE  &kp DOWN             &kp LG(LA(DOWN))                                              &kp HOME      &kp PG_UP     &kp ENTER     &kp PG_DN     &kp END
                                                &mt LGUI LANGUAGE_2                                                                              &kp B
             >;
