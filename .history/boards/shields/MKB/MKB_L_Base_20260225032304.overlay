@@ -47,9 +47,7 @@
             compatible = "zmk,input-split";
             reg = <3>;
         };
-    };
-
-    trackball_listener: trackball_listener {
+        trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
@@ -59,13 +57,13 @@
             layers = <1>;
             input-processors =
                 <&zip_xy_transform INPUT_TRANSFORM_X_INVERT
-                &zip_xy_to_scroll_mapper
-                &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
-                &zip_scroll_scaler 1 5
-                &scroll_runtime_input_processor>;
+                 &zip_xy_to_scroll_mapper
+                 &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
+                 &zip_scroll_scaler 1 5
+                 &scroll_runtime_input_processor>;
         };
     };
-
+    };
 
     kscan0: kscan0 {
         compatible = "zmk,kscan-composite";

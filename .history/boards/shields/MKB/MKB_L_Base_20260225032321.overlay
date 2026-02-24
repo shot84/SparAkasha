@@ -49,22 +49,6 @@
         };
     };
 
-    trackball_listener: trackball_listener {
-        compatible = "zmk,input-listener";
-        status = "okay";
-        device = <&trackball_split>;
-        input-processors = <&mouse_runtime_input_processor>;
-
-        scroller {
-            layers = <1>;
-            input-processors =
-                <&zip_xy_transform INPUT_TRANSFORM_X_INVERT
-                &zip_xy_to_scroll_mapper
-                &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
-                &zip_scroll_scaler 1 5
-                &scroll_runtime_input_processor>;
-        };
-    };
 
 
     kscan0: kscan0 {
