@@ -73,4 +73,3 @@
                  &scroll_runtime_input_processor>;
         };
     };
-};
