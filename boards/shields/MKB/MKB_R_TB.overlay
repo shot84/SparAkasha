@@ -1,3 +1,6 @@
+#include <input/processors.dtsi>
+#include <input/processors/runtime-input-processor.dtsi>
+
 &pinctrl {
     spi0_default: spi0_default {
         group1 {
@@ -58,5 +61,15 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&trackball_split>;
+        input-processors = <&mouse_runtime_input_processor>;
+
+        scroller {
+            layers = <1>;
+            input-processors =
+                <&zip_xy_transform INPUT_TRANSFORM_X_INVERT
+                 &zip_xy_to_scroll_mapper
+                 &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
+                 &zip_scroll_scaler 1 5
+                 &scroll_runtime_input_processor>;
+        };
     };
-};
