@@ -124,7 +124,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '0'
+  - MINUS
   - Ctl+LEFT
   - Ctl+RIGHT
   - Ctl+UP ARROW
@@ -337,7 +337,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
