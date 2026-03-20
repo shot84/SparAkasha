@@ -18,12 +18,14 @@ manifest:
       url-base: https://github.com/t-ogura  # ★これを追加
     - name: cormoran
       url-base: https://github.com/cormoran
+    - name: efogdev
+      url-base: https://github.com/efogdev
   projects:
     - name: zmk
       # remote: zmkfirmware
       remote: te9no
       # remote: cormoran
-      revision: fe7ddee
+      revision: v0.3-branch+dya
       import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
