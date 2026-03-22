@@ -18,8 +18,7 @@ manifest:
       url-base: https://github.com/t-ogura  # ★これを追加
     - name: cormoran
       url-base: https://github.com/cormoran
-    - name: efogdev
-      url-base: https://github.com/efogdev
+      -
   projects:
     - name: zmk
       # remote: zmkfirmware
@@ -32,10 +31,7 @@ manifest:
       revision: v0.3
     - name: zmk-pmw3610-driver
       remote: efogdev
-      revision: 262c25b
-    # - name: zmk-pmw3610-driver
-    #   remote: badjeff
-    #   revision: zmk-0.3
+      revision: zmk-0.3
     - name: zmk-analog-input-driver
       remote: badjeff
       revision: main
