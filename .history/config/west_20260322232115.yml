@@ -19,7 +19,7 @@ manifest:
     - name: cormoran
       url-base: https://github.com/cormoran
     - name: efogdev
-      url-base: https://github.com/efogdev
+      url-base: 
   projects:
     - name: zmk
       # remote: zmkfirmware
