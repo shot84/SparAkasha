@@ -69,7 +69,7 @@
                 <&zip_xy_transform INPUT_TRANSFORM_X_INVERT
                  &zip_xy_to_scroll_mapper
                  &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
-                 &zip_scroll_scaler 1 16
+                 &zip_scroll_scaler 1 1
                  &scroll_runtime_input_processor>;
         };
     };
