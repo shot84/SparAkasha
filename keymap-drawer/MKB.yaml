@@ -148,7 +148,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - BACKSLASH
   - Gui+LEFT BRACKET
   - LEFT
   - DOWN
