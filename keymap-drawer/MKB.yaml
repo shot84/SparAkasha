@@ -140,7 +140,7 @@ layers:
   - Gui+RIGHT BRACKET
   - AT SIGN
   - UP ARROW
-  - {t: ▽, type: trans}
+  - GRAVE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
