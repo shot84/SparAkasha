@@ -154,7 +154,7 @@ layers:
   - DOWN
   - RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE UP
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - LEFT ALT
@@ -164,7 +164,7 @@ layers:
   - {t: ENTER, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - Ctl+LEFT
   - Ctl+UP
   - Ctl+Gui+F
